@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Array</title>
+</head>
+<body>
+  <script>
+    var arrOne = new Array(4);
+    var arrTwo = [4];
+
+    var arrThree = ['Volvo', 'Volkswagen', 'BMW', 'Audi'];
+    console.log(arrThree[3]);
+    
+    arrThree.push('Kia')
+    console.log('push operation '+ arrThree);
+
+    arrThree.pop();
+    console.log('pop operation '+ arrThree);
+
+    arrThree.unshift('Mercedes Benz');
+    console.log('unshift operation '+ arrThree);
+
+    console.log('shift operation '+ arrThree.shift());
+  </script>
+</body>
+</html>
